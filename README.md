@@ -99,4 +99,3 @@ ccna-labs/
 Este repositorio representa un proceso de aprendizaje real. No busca ser perfecto, sino **honesto, práctico y progresivo**.
 
 — HMS Endeavour
-# ccna-labs

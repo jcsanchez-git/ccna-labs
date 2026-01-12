@@ -13,8 +13,8 @@ No incluye aún:
 
 ## Diseño
 Un switch L2 con dos VLANs:
-- VLAN 10: USERS
-- VLAN 20: ADMIN
+- VLAN 10 → USERS
+- VLAN 20 → ADMIN
 
 
 ## Escenario sin VLANs
@@ -58,7 +58,9 @@ VLAN 20 → PC-B
 
 
 ## Conclusión
-Este lab demuestra que las VLANs permiten dividir un switch físico
-en múltiples dominios de broadcast lógicos, mejorando el orden,
-la seguridad y la escalabilidad de la red sin requerir hardware adicional.
+Este lab demuestra que las VLANs permiten dividir lógicamente
+un switch físico en múltiples dominios de broadcast,
+mejorando el orden, la seguridad y la escalabilidad de la red
+sin requerir hardware adicional.
+
 

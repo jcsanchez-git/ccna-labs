@@ -1,4 +1,5 @@
-# VLANs (CCNA)
+## Objetivo
+Comprender cómo las VLANs separan dominios de broadcast.
 
 Este módulo cubre los fundamentos de VLANs:
 - Segmentación lógica
@@ -10,35 +11,32 @@ No incluye aún:
 - Inter-VLAN routing
 - Trunking avanzado
 
-  
-## Objetivo
-Comprender cómo las VLANs separan dominios de broadcast.
-
 ## Diseño
 Un switch L2 con dos VLANs:
 - VLAN 10: USERS
 - VLAN 20: ADMIN
 
-## Topología
-(diagrama ASCII o imagen)
 
-##Sin VLANs
+
+## Topología
+
+
+Sin VLANs:
 
 [ PC-A ] ---\
 [ PC-B ] ---- SWITCH ---- broadcast a todos
 [ PC-C ] ---/
 
-
-##Con VLANs
+Con VLANs:
 
 VLAN 10: PC-A, PC-B
 VLAN 20: PC-C
 
 Broadcast separado
 
-##Cada VLAN = un dominio de broadcast
+Cada VLAN = un dominio de broadcast
 
-##Lab mental: VLAN básica
+Lab mental: VLAN básica
 
         ┌───────────┐
  PC-A ──┤           │
@@ -48,6 +46,7 @@ Broadcast separado
 
 VLAN 10 → PC-A
 VLAN 20 → PC-B
+
 
 
 ##Resultado esperado:

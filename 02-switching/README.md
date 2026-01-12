@@ -1,4 +1,4 @@
-# 02 – Switching
+# Switching
 
 VLANs, trunking y switching fundamentals.
 

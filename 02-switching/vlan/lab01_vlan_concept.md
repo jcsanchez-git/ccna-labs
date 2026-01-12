@@ -46,7 +46,7 @@ VLAN 20 → PC-B
 
 
 
-##Resultado esperado:
+## Resultado esperado:
 
 * Hosts dentro de la misma VLAN se comunican: ✓
 * Hosts en VLANs distintas NO se comunican: ✗

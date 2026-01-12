@@ -17,13 +17,14 @@ Un switch L2 con dos VLANs:
 - VLAN 20: ADMIN
 
 
-
+## Escenario sin VLANs
 Sin VLANs:
 
 [ PC-A ] ---\
 [ PC-B ] ---- SWITCH ---- broadcast a todos
 [ PC-C ] ---/
 
+## Escenario con VLANs
 Con VLANs:
 
 VLAN 10: PC-A, PC-B
@@ -31,9 +32,9 @@ VLAN 20: PC-C
 
 Broadcast separado
 
-Cada VLAN = un dominio de broadcast
+## Cada VLAN = un dominio de broadcast
 
-Lab mental: VLAN básica
+## Lab mental: VLAN básica
 
         ┌───────────┐
  PC-A ──┤           │
@@ -55,7 +56,7 @@ VLAN 20 → PC-B
 - Hosts en la misma VLAN se comunican.
 - Hosts en VLANs distintas no se comunican.
 
-## Conclusión
+
 ## Conclusión
 Este lab demuestra que las VLANs permiten dividir un switch físico
 en múltiples dominios de broadcast lógicos, mejorando el orden,

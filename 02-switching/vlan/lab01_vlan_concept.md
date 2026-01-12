@@ -18,9 +18,6 @@ Un switch L2 con dos VLANs:
 
 
 
-## Topología
-
-
 Sin VLANs:
 
 [ PC-A ] ---\

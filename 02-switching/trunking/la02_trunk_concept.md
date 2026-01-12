@@ -21,3 +21,28 @@ VLANs presentes en ambos extremos.
 
 ## Riesgos
 Una mala configuración de VLAN nativa puede causar tráfico no deseado.
+
+## VLAN Nativa
+
+La VLAN nativa es la VLAN que transporta tráfico sin etiquetar en un enlace trunk.
+Por razones de seguridad, no se recomienda usar VLAN 1 ni asignar hosts a la VLAN nativa.
+
+Una práctica común es crear una VLAN sin usuarios (ej. VLAN 999) y configurarla
+como VLAN nativa para evitar fugas de tráfico o ataques de VLAN hopping.
+
+
+## Diseño típico de switch bien asegurado
+
+VLAN 10   → USERS
+VLAN 20   → ADMINS
+VLAN 30   → SERVERS
+VLAN 99   → MGMT
+VLAN 998  → UNUSED (puertos apagados)
+VLAN 999  → NATIVE (fake)
+
+## Puertos no utilizados
+
+Los puertos no utilizados deben ser deshabilitados administrativamente
+y asignados a una VLAN sin hosts ni acceso a la red (VLAN de cuarentena).
+
+Esta práctica reduce riesgos de acceso no autorizado y ataques de capa 2.

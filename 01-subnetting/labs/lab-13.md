@@ -1,3 +1,7 @@
-🧪 Lab 12 — Enumeración de subredes
+🧪 Lab 13 — Máscara no común
 
-Liste todas las subredes válidas dentro de 172.16.0.0/20.
+Un ISP entrega 200.10.5.0/23.
+Determine:
+	•	Número de subredes
+	•	Hosts por subred
+
